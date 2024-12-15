@@ -1,0 +1,38 @@
+.breed-selector {
+    margin: 20px;
+    padding: 20px;
+    background: #871e99;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+  
+  .breed-selector label {
+    margin-right: 10px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+  
+  .breed-selector select,
+  .breed-selector input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #d5d5d5;
+}
+
+  .breed-selector button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.breed-selector button:hover {
+    background-color: #27b2ed;
+    color:black;
+}
+
